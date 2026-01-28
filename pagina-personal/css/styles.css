@@ -42,6 +42,25 @@
   box-shadow: 0 0 15px rgba(13, 110, 253, 0.5); /* Brillo tipo neon */
 }
 
+.navbar-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    font-size: 0.8rem;
+  }
+
+  .navbar-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+  }
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -449,6 +468,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -507,6 +527,7 @@ legend + * {
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -528,6 +549,7 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 
 output {

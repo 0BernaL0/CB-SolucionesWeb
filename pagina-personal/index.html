@@ -10,10 +10,10 @@
 
     <meta property="og:title" content="CB - Soluciones Web | Potenciá tu Negocio Online" />
     <meta property="og:description" content="Desarrollo de páginas web profesionales de alto rendimiento. ¡Obtené tu sitio rápido y seguro!" />
-    <meta property="og:image" content="https://tu-dominio.com/images/Logo-Limpio.png" /> <meta property="og:url" content="https://tu-dominio.com" />
+    <meta property="og:image" content="https://tu-dominio.com/images/Logo-Limpio.webp" /> <meta property="og:url" content="https://tu-dominio.com" />
     <meta property="og:type" content="website" />
 
-    <link rel="icon" type="image/x-icon" href="images/Logo-Limpio.png" /> 
+    <link rel="icon" type="image/x-icon" href="images/Logo-Limpio.webp" /> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     
     <link href="css/styles.css" rel="stylesheet" />
@@ -21,19 +21,16 @@
   <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
       <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-5">
-          <img
-            src="images/Logo-Limpio.png"
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+           <img
+            src="images/Logo-Limpio.webp"
             alt="..."
-            style="
-              width: 32px;
-              height: 32px;
-              border-radius: 50%;
-              margin-right: 10px;
-            "
-          />
-          <a class="navbar-brand" href="index.html">CB - Soluciones Web</a>
+            class="navbar-logo"/>
+          <span class="d-none d-sm-inline">CB - Soluciones Web</span>
+          <span class="d-inline d-sm-none">CB - Soluciones</span>
+         </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -53,15 +50,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">Sobre mí</a>
               </li>
-              <!--li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li-->
               <li class="nav-item">
                 <a class="nav-link" href="pricing.html">Servicios post-venta</a>
               </li>
-              <!--li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
-              </li-->
               <li class="nav-item">
                 <a class="nav-link" href="portfolio-general.html">Portfolio</a>
               </li>
@@ -96,7 +87,7 @@
             <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
               <img
                 class="img-fluid rounded-3 my-5"
-                src="images/Home.png"
+                src="images/Home.webp"
                 alt="..."
               />
             </div>
@@ -211,34 +202,6 @@
           </div>
         </div>
       </section>
-      <!-- Testimonial section-->
-      <!--div class="py-5 bg-light">
-        <div class="container px-5 my-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-10 col-xl-7">
-              <div class="text-center">
-                <div class="fs-4 mb-4 fst-italic">
-                  "Working with Start Bootstrap templates has saved me tons of
-                  development time when building new projects! Starting with a
-                  Bootstrap template just makes things easier!"
-                </div>
-                <div class="d-flex align-items-center justify-content-center">
-                  <img
-                    class="rounded-circle me-3"
-                    src="https://dummyimage.com/40x40/ced4da/6c757d"
-                    alt="..."
-                  />
-                  <div class="fw-bold">
-                    Tom Ato
-                    <span class="fw-bold text-primary mx-1">/</span>
-                    CEO, Pomodoro
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div-->
     </main>
     <!-- Footer-->
     <footer class="bg-dark py-4 mt-auto">
@@ -253,9 +216,6 @@
             </div>
           </div>
           <div class="col-auto">
-            <!--a class="link-light small" href="#!">Privacy</a>
-            <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Terms</a-->
             <span class="text-white mx-1">&middot;</span>
             <a class="link-light small" href="contact.html">Contactar</a>
           </div>
